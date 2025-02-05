@@ -1,0 +1,47 @@
+.card {
+    background-image: url("https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg?t=st=1738698188~exp=1738701788~hmac=68c4cbddb95a74fa7a664586f2c5f9c8143214fa3d225a59c82c83d8736c4bc9&w=2000");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.h-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 20vh;
+    width: 30vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-heading {
+    color: rgb(4, 121, 127);
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.paragraph {
+    color: rgb(56, 1, 42);
+    font-size: larger;
+}
+
+.btn {
+    width: 120px;
+    height: 35px;
+    background-color: rgb(2, 134, 164);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(1, 100, 130);
+}
